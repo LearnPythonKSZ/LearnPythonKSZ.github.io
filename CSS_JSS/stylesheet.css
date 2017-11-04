@@ -220,7 +220,7 @@ div.heading {
 	outline: 0;
 }
 .end {
-	position: fixed;
+	position: relative;
 	background-color: Black;
 	color: White;
 	width: 100%;
@@ -229,7 +229,7 @@ div.heading {
 	text-align: center;
 }
 .end span{
-	position: absolute;
+	position: fixed;
 	bottom: 10px;
 	display: block;
 	text-align: center;
