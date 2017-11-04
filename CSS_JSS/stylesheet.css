@@ -226,14 +226,16 @@ div.heading {
 	width: 100%;
 	font-size: 75%;
 	height: 150px;
-	text-align: center;
+	display: block;
+	text-align:center;
 }
 .end span{
 	position: absolute;
 	bottom: 10px;
 	display: block;
+	left:28%;
+	margin-right: 28%;
 	text-align: center;
-	left: 15%;
 }
 .achtungheader{
 	display: inline-block;
