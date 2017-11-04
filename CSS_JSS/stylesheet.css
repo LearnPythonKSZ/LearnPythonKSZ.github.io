@@ -220,7 +220,7 @@ div.heading {
 	outline: 0;
 }
 .end {
-	position: relative;
+	position: fixed;
 	background-color: Black;
 	color: White;
 	width: 100%;
