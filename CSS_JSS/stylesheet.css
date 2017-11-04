@@ -229,7 +229,7 @@ div.heading {
 	text-align: center;
 }
 .end span{
-	position: fixed;
+	position: absolute;
 	bottom: 10px;
 	display: block;
 	text-align: center;
