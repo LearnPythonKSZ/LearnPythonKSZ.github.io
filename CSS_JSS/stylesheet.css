@@ -64,6 +64,12 @@ div.navigation{
 	float:left;
 	width: 75%;
 }
+.glossar{
+	float: right;
+	font-size:120%;
+	margin-right: 10px;
+	
+}
 .searchbar {
 	position: absolute;
 	right: 1px;
@@ -108,7 +114,8 @@ transition-timing-function: ease-in-out;
 input[type="text"]:focus{
 	color: black;
 	background-color: white;
-	border: 0;	
+	border-radius: 5px 5px 5px 5px;
+	border-color: 5px solid white;
 	width: 22%;
 	outline: none;
 }
@@ -144,6 +151,7 @@ input[type="text"]:focus{
 	margin-left: 10px;
 	margin-right: 20px;
 	opacity: 0.5;
+	font-size: 80%;
 	font-family: 'Lato', sans-serif;
 }
 .link:hover {
@@ -232,7 +240,7 @@ div.heading {
 	outline: 0;
 }
 .end {
-	position: relative;
+	position: absolute;
 	background-color: Black;
 	color: White;
 	width: 100%;
