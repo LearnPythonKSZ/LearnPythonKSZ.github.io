@@ -15,6 +15,33 @@ body {
 	color: red;
 	background-color: white;
 }
+
+.video{
+	width: 1920px;
+	top: 23px;
+	height: 500px;
+	position: absolute;
+	z-index: 0;
+}
+.image{
+	position: relative;
+	margin-top: 300px;
+	bottom: -3px;
+}
+.Background{
+	position: absolute;
+}
+.overlay{
+	font-family: Bookman, serif;
+	font-size: 300%;
+	position: absolute;
+	text-align:center;
+	z-index: 1;
+	width: 100%;
+	margin-top: 200px; 
+	height: 100px;
+	color: black;
+}
 .green {
 	color: green;
 	background-color: white;
@@ -38,12 +65,22 @@ body {
 }
 .linkselected {
 	text-decoration: none;
-	color: blue;
 	color: yellow;
 	display: inline-block;
 	margin-top: 14px;
 	margin-left: 10px;
 	margin-right: 20px;
+	font-family: 'Lato', sans-serif;
+}
+.linkglossarselected {
+	color: blue;
+	text-decoration:none;
+	display: inline-block;
+	margin-top: 14px;
+	margin-left: 10px;
+	margin-right: 20px;
+	opacity: 1;
+	font-size: 80%;
 	font-family: 'Lato', sans-serif;
 }
 .linkselected::selection{
@@ -60,6 +97,7 @@ div.navigation{
 	background-color: black;
 	color: white;
 	border: solid 1px black;
+	z-index: 5;
 }
 .navbar{
 	float:left;
@@ -262,6 +300,8 @@ div.heading {
 	height: 150px;
 	display: block;
 	text-align:center;
+	margin-bottom:0 px;
+	z-index: 3;
 }
 .end span{
 	position: absolute;
