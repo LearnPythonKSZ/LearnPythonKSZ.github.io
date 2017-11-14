@@ -19,7 +19,7 @@ body {
 .video{
 	width: 1920px;
 	top: 23px;
-	height: 490px;
+	height: 500px;
 	position: absolute;
 	z-index: 2;
 }
