@@ -71,6 +71,7 @@ body {
 	margin-top: 14px;
 	margin-left: 10px;
 	margin-right: 20px;
+	font-size: 70%;
 	font-family: 'Lato', sans-serif;
 }
 .linkglossarselected {
@@ -81,7 +82,7 @@ body {
 	margin-left: 10px;
 	margin-right: 20px;
 	opacity: 1;
-	font-size: 80%;
+	font-size: 70%;
 	font-family: 'Lato', sans-serif;
 }
 .linkselected::selection{
@@ -190,7 +191,7 @@ input[type="text"]:focus{
 	margin-left: 10px;
 	margin-right: 20px;
 	opacity: 0.5;
-	font-size: 80%;
+	font-size: 70%;
 	font-family: 'Lato', sans-serif;
 }
 .linkglossar{
@@ -201,7 +202,7 @@ input[type="text"]:focus{
 	margin-left: 10px;
 	margin-right: 20px;
 	opacity: 1;
-	font-size: 80%;
+	font-size: 70%;
 	font-family: 'Lato', sans-serif;
 }
 .linkglossar:hover {
